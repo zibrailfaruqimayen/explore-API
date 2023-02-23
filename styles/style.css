@@ -1,0 +1,24 @@
+.pry-btn {
+  padding: 15px;
+  color: white;
+  border: solid 2px lightblue;
+  border-radius: 5px;
+  background-color: skyblue;
+}
+.pry-btn:hover {
+  background-color: lightblue;
+}
+
+.post-1-btn {
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  border: solid;
+  background: rgb(116, 107, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(116, 107, 255, 1) 0%,
+    rgba(190, 236, 140, 1) 0%,
+    rgba(78, 159, 176, 1) 46%
+  );
+}

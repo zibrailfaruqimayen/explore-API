@@ -13,20 +13,26 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <button class="post-1-btn" id="post-btn">View Post</button>
+      </nav>
+    </header>
     <h1>API</h1>
-    <button onclick="loadData()">Load Data</button>
-    <button onclick="loadData2()">Load Data2</button>
-    <button onclick="loadUsers()">Load Users</button>
-    <button onclick="loadUsers2()">Load Users2</button>
-    <button onclick="createAPost()">Create a Post</button>
-    <button onclick="deleteAPost()">Delete a Post</button>
-    <button onclick="patchAPost()">Update a Post</button>
+    <button class="pry-btn" onclick="loadData()">Load Data</button>
+    <button class="pry-btn" onclick="loadData2()">Load Data2</button>
+    <button class="pry-btn" onclick="loadUsers()">Load Users</button>
+    <button class="pry-btn" onclick="loadUsers2()">Load Users2</button>
+    <button class="pry-btn" onclick="createAPost()">Create a Post</button>
+    <button class="pry-btn" onclick="deleteAPost()">Delete a Post</button>
+    <button class="pry-btn" onclick="patchAPost()">Update a Post</button>
 
     <div class="users-container">
       <ul id="users-list"></ul>
     </div>
 
     <!-- scripts -->
+    <script src="js/link.js"></script>
     <script src="js/fetch.js"></script>
     <script src="js/app.js"></script>
     <script src="js/index.js"></script>
